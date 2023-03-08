@@ -12,7 +12,8 @@
             	"command": "python3 '%build%/proton' waitforexitandrun",
             	"env": {
             		"STEAM_COMPAT_DATA_PATH": "%prefix%",
-                    "STEAM_COMPAT_CLIENT_INSTALL_PATH": ""
+                    "STEAM_COMPAT_CLIENT_INSTALL_PATH": "",
+                    "SteamAppId": 0
             	}
             }
         },
