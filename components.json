@@ -5,6 +5,17 @@
             "title": "Wine-GE-Proton"
         },
         {
+            "name": "ge-proton",
+            "title": "GE-Proton",
+            "features": {
+            	"need_dxvk": false,
+            	"command": "python3 '%build%/proton' waitforexitandrun",
+            	"env": {
+            		"STEAM_COMPAT_DATA_PATH": "%prefix%"
+            	}
+            }
+        },
+        {
             "name": "soda",
             "title": "Soda"
         },
